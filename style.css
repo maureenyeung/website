@@ -6,7 +6,7 @@ html, body {
     background-color: #EEEEEE;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font: Verdana, Arial, Sans-serif;
 }
 
 
@@ -23,8 +23,10 @@ article {
 
 
 header {
-    color: skyblue;
+    color: mediumaquamarine;
     text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
 }
 
 
@@ -46,7 +48,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: blue;
     text-decoration: none;
 }
 
