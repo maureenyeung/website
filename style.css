@@ -3,30 +3,27 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: grey;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-serif;
-}
+    font-family: cursive;
 
+}
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 600px;
     position: relative;
-}
-
-
-article {
-    text-align: justify;
+    
 }
 
 
 header {
-    color: mediumaquamarine;
+    color: azure;
     text-align: center;
-    font-family: fantasy;
-    font-size: 20px;
+    font-family: Snell Roundhand, fantasy;
+    font-size: 30px;
+    padding: 0px;
 }
 
 
