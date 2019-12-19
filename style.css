@@ -2,9 +2,7 @@
 
 html, body {
     height: 100%;
-    padding: 0;
-    background-color: grey;  
-    
+    padding: 0;  
     color: #303030;
     font-family: cursive;
 
@@ -20,7 +18,7 @@ main {
 
 
 header {
-    color: azure;
+    color: black;
     text-align: center;
     font-family: sierlijk;
     font-size: 30px;
@@ -28,11 +26,6 @@ header {
     
 }
 
-
-footer {
-    text-align: center;
-    padding-bottom: 10px;
-}
 
 @font-face{
     font-family: MellaNissafont;
@@ -42,10 +35,6 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
 
 .smalltext {
     font-size: 0.7em;
