@@ -10,7 +10,6 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 600px;
     position: relative;
     padding: 300px;
     
@@ -21,17 +20,10 @@ header {
     color: black;
     text-align: center;
     font-family: sierlijk;
-    font-size: 30px;
+    font-size: 60px;
     padding: 0px;
     
 }
-
-
-@font-face{
-    font-family: MellaNissafont;
-    src: url(fonts/mella-nissa.ttf)
-}
-
 
 /* specifieke stijlen */
 
