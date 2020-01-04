@@ -41,22 +41,18 @@ a:hover {
     text-decoration: underline;
 }
 
-.mijn-geboorte {
-    font-family: sierlijk;
-
-    color: black;
-}
-
 body {
-    background-image: url("afbeeldingen/BSachtergrond.jpg")
-    
+    background-image: url("afbeeldingen/BSachtergrond.jpg");    
 }
+
+
+
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(206, 207, 209);
     overflow: hidden;
 }
 
@@ -77,12 +73,18 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(101, 211, 255);
 }
 
+/* fonts */
 
 @font-face {
     font-family: sierlijk;
     src: url(fonts/sierlijk.ttf)
 }
 
+/* geboorte stijlen */
+
+#buik {
+    background-color: rgb(206, 207, 209))
+}
