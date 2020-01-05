@@ -54,6 +54,8 @@ nav ul {
     padding: 0;
     background-color: rgb(206, 207, 209);
     overflow: hidden;
+    width: 50%;
+    border: 1px solid #e7e7e7;
 }
 
 nav ul li {
@@ -64,7 +66,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
@@ -83,8 +85,39 @@ nav li a.active {
     src: url(fonts/sierlijk.ttf)
 }
 
+@font-face {
+    font-family: skates;
+    src: url(fonts/strawberry.ttf)
+}
+
 /* geboorte stijlen */
 
 #buik {
-    background-color: rgb(206, 207, 209))
+    background-color: rgb(233, 233, 233);
+    width: 65%;
+    margin: auto;
+    padding: 7px;
+    text-align: center; 
+}
+
+#vervolg-buik{
+    background-color: rgb(233, 233, 233);
+    width: 65%;
+    margin: auto;
+    padding: 7px;
+}
+
+span {
+  background: rgb(130, 235, 243);
+  border-radius: 45% 0%;
+  box-shadow: 0 0 12px rgb(30, 111, 165), 0 0 3px beige inset;
+  padding: .5em 1.3em;
+  box-decoration-break: clone;
+  position: absolute;
+  left: 28%;
+}
+
+.echo-baby{
+    position: absolute;
+    right: 28%;
 }
