@@ -90,7 +90,7 @@ nav li a.active {
     src: url(fonts/strawberry.ttf)
 }
 
-/* geboorte stijlen */
+/* geboorte stijlen + echo */
 
 #buik {
     background-color: rgb(233, 233, 233);
@@ -98,6 +98,7 @@ nav li a.active {
     margin: auto;
     padding: 7px;
     text-align: center; 
+    font-size: 20px;
 }
 
 #vervolg-buik{
@@ -118,6 +119,48 @@ span {
 }
 
 .echo-baby{
+    border-radius: 8px;
     position: absolute;
-    right: 28%;
+    right: 29%;
+}
+
+#mei {
+    background-color: rgb(233, 233, 233);
+    width: 65%;
+    margin: auto;
+    padding: 7px;
+    text-align: center; 
+    font-size: 20px;
+
+}
+
+#vervolg-mei{
+    background-color: rgb(233, 233, 233);
+    width: 65%;
+    margin: auto;
+    padding: 7px;
+}
+
+/* images info */
+.mutsje {
+    border-radius: 8px;
+    float: right;
+    margin: 5px;
+}
+
+.hand{
+    border-radius: 8px;
+    position: absolute;
+    left: 29%;
+}
+
+.slapend {
+    border-radius: 8px;
+    
+}
+
+.gapen {
+    border-radius: 8px;
+    position: absolute;
+    right: 29%;
 }
