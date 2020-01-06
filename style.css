@@ -5,11 +5,13 @@ html, body {
     padding: 0;  
     color: #303030;
     font-family: cursive;
+    padding: 75px;
 
 }
 
 main {
     margin: 0 auto;
+    width: 900px;
     position: relative;
     padding: 300px;
     
@@ -40,6 +42,7 @@ body {
     background-image: url("afbeeldingen/BSachtergrond.jpg");    
 }
 
+
 /* footer info */
 .smalltext {
     font-size:0.7em;
@@ -55,6 +58,7 @@ body {
 }
 
 
+
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
@@ -62,7 +66,7 @@ nav ul {
     padding: 0;
     background-color: rgb(206, 207, 209);
     overflow: hidden;
-    width: 585.5px;
+    width: 588px;
     border: 1px solid #e7e7e7;
 }
 
@@ -94,31 +98,34 @@ nav li a.active {
 }
 
 @font-face {
-    font-family: skates;
-    src: url(fonts/strawberry.ttf)
+    font-family: notes;
+    src: url(fonts/notes.ttf)
 }
 
 @font-face {
-    font-family: angelina;
-    src: url(fonts/angelina.ttf)
+    font-family: roberts;
+    src: url(fonts/roberts.ttf)
 }
-/* geboorte stijlen + echo */
+
+/* geboorte stijlen */
 
 #buik {
     background-color: rgb(233, 233, 233);
     width: 800px;
     margin: auto;
-    padding: 7px;
+    padding: 12px;
     text-align: center; 
     font-size: 25px;
-    font-family: angelina;
+    font-family: notes;
 }
 
 #vervolg-buik{
+    font-family: monospace;
+    font-size: 20px;
     background-color: rgb(233, 233, 233);
     width: 800px;
     margin: auto;
-    padding: 7px;
+    padding: 12px;
 }
 
 span {
@@ -131,45 +138,53 @@ span {
   left: 360px;
 }
 
+#mei {
+    background-color: rgb(233, 233, 233);
+    width: 800px;
+    margin: auto;
+    padding: 12px;
+    text-align: center; 
+    font-size: 25px;
+    font-family: notes;
+
+}
+
+#vervolg-mei{
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+    width: 415px;
+    position: absolute;
+    left: 339px;
+    margin: auto;
+    padding: 12px;
+}
+
+/* images info */
+
 .echo-baby{
     border-radius: 8px;
     position: absolute;
     left: 820px;
 }
 
-#mei {
-    background-color: rgb(233, 233, 233);
-    width: 800px;
-    margin: auto;
-    padding: 7px;
-    text-align: center; 
-    font-size: 20px;
-
-}
-
-#vervolg-mei{
-    background-color: rgb(233, 233, 233);
-    width: 800px;
-    margin: auto;
-    padding: 7px;
-}
-
-/* images info */
 .mutsje {
     border-radius: 8px;
-    float: right;
-    margin: 5px;
+    position: absolute;
+    left: 820px;
 }
 
 .hand{
     border-radius: 8px;
     position: absolute;
-    left: 29%;
+    left: 360px;
+    top: 2300px;
 }
 
 .slapend {
     border-radius: 8px;
-    
+    transform: scaleY(-1);
+
 }
 
 .gapen {
