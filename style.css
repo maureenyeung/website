@@ -30,7 +30,7 @@ header {
 
 
 a {
-    color: blue;
+    color: rgb(0, 170, 142);
     text-decoration: none;
 }
 
@@ -164,12 +164,27 @@ span {
 
 /* images info */
 
-.echo-baby{
+.beschuit{
     border-radius: 8px;
     position: relative;
     width: 300px;
     bottom: 200px;
     left: 525px;
+}
+
+.echo-baby{
+    border-radius: 8px;
+    position: relative;
+    width: 300px;
+    float: left;
+    bottom: 30px;
+}
+
+.voet{
+    border-radius: 8px;
+    position: relative;
+    width: 300px;
+    float: right;
 }
 
 .mutsje {
