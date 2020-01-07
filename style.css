@@ -5,7 +5,7 @@ html, body {
     padding: 0;  
     color: #303030;
     font-family: cursive;
-    padding: 75px;
+    padding: 60px;
 
 }
 
@@ -13,7 +13,7 @@ main {
     margin: 0 auto;
     width: 900px;
     position: relative;
-    padding: 300px;
+    padding: 115px;
     
 }
 
@@ -21,7 +21,7 @@ header {
     color: black;
     text-align: center;
     font-family: sierlijk;
-    font-size: 60px;
+    font-size: 50px;
     padding: 0px;
     
 }
@@ -66,7 +66,7 @@ nav ul {
     padding: 0;
     background-color: rgb(206, 207, 209);
     overflow: hidden;
-    width: 588px;
+    width: 591.5px;
     border: 1px solid #e7e7e7;
 }
 
@@ -121,7 +121,7 @@ nav li a.active {
 
 #vervolg-buik{
     font-family: monospace;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(233, 233, 233);
     width: 800px;
     margin: auto;
@@ -135,7 +135,7 @@ span {
   padding: .5em 1.3em;
   box-decoration-break: clone;
   position: absolute;
-  left: 360px;
+  left: 190px;
 }
 
 #mei {
@@ -151,12 +151,13 @@ span {
 
 #vervolg-mei{
     font-family: monospace;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(233, 233, 233);
+    float: left;
+    margin: 10px;
     width: 415px;
     position: absolute;
-    left: 339px;
-    margin: auto;
+    left: 144px;
     padding: 12px;
 }
 
@@ -165,13 +166,15 @@ span {
 .echo-baby{
     border-radius: 8px;
     position: absolute;
-    left: 820px;
+    width: 300px;
+    left: 650px;
+    top: 885px;
 }
 
 .mutsje {
     border-radius: 8px;
     position: absolute;
-    left: 820px;
+    left: 650px;
 }
 
 .hand{
