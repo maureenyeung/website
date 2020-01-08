@@ -21,7 +21,7 @@ header {
     margin-top: 250px;
 }
 
-/* specifieke stijlen */
+/* specifieke en algemene stijlen */
 
 h1 {
     height: 3em;
@@ -44,6 +44,27 @@ body {
     clear:both;
 }
 
+.hoofdkopjes {
+    background-color: rgb(233, 233, 233);
+    width: 800px;
+    margin: auto;
+    padding: 12px;
+    text-align: center; 
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+.basickopjes{
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.alle-fotos{
+    border-radius: 8px;
+    width: 300px;
+}
 
 /* footer info */
 .smalltext {
@@ -59,6 +80,7 @@ body {
 .mail {
     font-family: monospace, 'times new roman';
     text-align: center;
+    font-size:0.8em;
 }
 
 
@@ -68,9 +90,10 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: rgb(206, 207, 209);
+    background-color: rgb(171, 197, 245);
     overflow: hidden;
     width: 591.5px;
+    border: 1px solid white;
     font-family: sierlijk;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
 }
@@ -119,23 +142,14 @@ nav li a.active {
 
 /* geboorte stijlen */
 
-#buik {
-    background-color: rgb(233, 233, 233);
-    width: 800px;
-    margin: auto;
-    padding: 12px;
-    text-align: center; 
-    font-size: 28px;
+#buik{
     font-family: notes;
-    margin-top: 35px;
 }
 
 #vervolg-buik{
-    background-color: rgb(233, 233, 233);
     width: 800px;
     margin: auto;
     margin-bottom:35px;
-    padding: 15px;
 }
 
 span {
@@ -151,31 +165,21 @@ span {
 }
 
 #mei {
-    background-color: rgb(233, 233, 233);
     width: 800px;
-    margin: auto;
-    padding: 12px;
-    text-align: center; 
-    font-size: 28px;
     font-family: notes;
-
 }
 
 #vervolg-mei{
-    background-color: rgb(233, 233, 233);
     float: left;
     margin: 10px;
+    margin-left:39px;
     width: 400px;
-    position: absolute;
-    left: 144px;
-    padding: 15px;
 }
 
 /* images info */
 
 .beschuit{
     width: 250px;
-    border-radius: 8px;
     float: right;
     margin: 25px;
     margin-top: 0px;
@@ -183,14 +187,12 @@ span {
 }
 
 .plaatjerechts {
-    border-radius: 8px;
     margin:30px;
     float: right;
     width: 300px;
 }
 
 .plaatjemidden {
-    border-radius: 8px;
     margin:30px;
     display: block;
     margin:auto;
@@ -198,7 +200,6 @@ span {
 }
 
 .plaatjes2oprij{
-    border-radius: 8px;
     margin:20px;
     float: left;
     width: 250px;
@@ -208,41 +209,31 @@ span {
 
 .mutsje {
     width: 300px;
-    border-radius: 8px;
     position: relative;
     bottom: 10px;
     left: 525px;
 }
 
 .hand{
-    border-radius: 8px;
     position: relative;
     left: 360px;
     top: 300px;
 }
 
 .slapend {
-    border-radius: 8px;
     transform: scaleY(-1);
     position: relative;
 
 }
 
 .gapen {
-    border-radius: 8px;
     position: relative;
     right: 29%;
 }
 
 /* eerste css */
 
-#over-mij-eerste{
-    background-color: rgb(233, 233, 233);
-    width: 800px;
-    margin: auto;
-    padding: 12px;
-    text-align: center; 
-    font-size: 25px;
-    font-family: hangingletters;
+#eerste-over-mij{
+    font-family: cursive;
 
 }
