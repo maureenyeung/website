@@ -61,6 +61,11 @@ body {
     text-align: center;
 }
 
+/* .clear.bold{
+    font-weight: bold;
+}
+*/
+
 /* footer info */
 .smalltext {
     font-size:0.7em;
@@ -157,16 +162,14 @@ span {
     float: left;
     margin: 10px;
     margin-left:35px;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
     width: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 48px;
 }
 
 #vervolg-mei-2{
-    margin: auto;
-    margin-top:12px;
-    padding-top: 20px;
     width: 800px;
+    margin-top: 10px;
 }
 
 /* images info */
@@ -229,9 +232,43 @@ span {
     -ms-filter: "FlipV";
 }
 
-/* eerste css */
+/* eerste CSS */
 
-#eerste-over-mij{
-    font-family: carlijn;
+.over-mij{
+    font-family: monospace;
+}
 
+#vervolg-o-m{
+    width: 800px;
+}
+
+#vervolg-geboortefeest{
+    width: 510px;
+    margin-left:35px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#foto-eten{
+    width: 250px;
+    margin: 0px;
+    margin-right: 50px;
+}
+
+.scroll{
+    position: absolute;
+    z-index: 2; 
+    margin: auto;
+    display: block; 
+}
+
+.feitje{
+    width: 450px;
+    margin: auto;
+}
+
+
+/* daarna CSS */
+#vervolg-o-m-2{
+    width: 800px;
 }
