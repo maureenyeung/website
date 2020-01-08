@@ -156,15 +156,24 @@ span {
 #vervolg-mei{
     float: left;
     margin: 10px;
-    margin-left:39px;
-    width: 540px;
+    margin-left:35px;
+    margin-bottom: 15px;
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+#vervolg-mei-2{
+    margin: auto;
+    margin-top:12px;
+    padding-top: 20px;
+    width: 800px;
 }
 
 /* images info */
 
 #beschuit{
     margin-top: -30px;
-    width: 300px;
+    width: 226px;
     /* border-radius: 8px;
     margin: 25px;
     margin-top: 0px;
@@ -184,22 +193,23 @@ span {
     margin:30px;
     display: block;
     margin:auto;
-    width: 300px;
+    width: 325px;
 }
 
 .plaatjes2oprij{
     border-radius: 8px;
-    margin:20px;
+    margin:15px;
     float: left;
-    width: 250px;
-    margin-left: 120px;
+    width: 300px;
+    margin-left: 100px;
     margin-bottom: 35px;
 }
 
 .mutsje {
     border-radius: 8px;
-    width: 230px;
-    margin: 5px;
+    width: 226px;
+    margin: 9px;
+    margin-bottom: 0px;
 }
 
 .hand{
@@ -209,17 +219,14 @@ span {
     float: right;
 }
 
-.slapend {
+#slapend {
     border-radius: 8px;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
-    position: relative;
-
-}
-
-.gapen {
-    border-radius: 8px;
-    position: relative;
-    right: 29%;
+    filter: FlipV;
+    -ms-filter: "FlipV";
 }
 
 /* eerste css */
