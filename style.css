@@ -87,7 +87,7 @@ nav ul {
     padding: 0;
     background-color: rgb(171, 197, 245);
     overflow: hidden;
-    width: 591.5px;
+    width: 660px;
     border: 1px solid white;
     font-family: sierlijk;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
@@ -125,16 +125,6 @@ nav li a.active {
     src: url(fonts/notes.ttf)
 }
 
-@font-face {
-    font-family: roberts;
-    src: url(fonts/roberts.ttf)
-}
-
-@font-face {
-    font-family: hangingletters;
-    src: url(fonts/hangingletters.ttf)
-}
-
 /* geboorte stijlen */
 
 #buik{
@@ -144,7 +134,7 @@ nav li a.active {
 #vervolg-buik{
     width: 800px;
     margin: auto;
-    margin-bottom:35px;
+    margin-bottom:60px;
 }
 
 span {
@@ -153,9 +143,8 @@ span {
   box-shadow: 0 0 12px rgb(30, 111, 165), 0 0 3px beige inset;
   padding: .5em 1.3em;
   box-decoration-break: clone;
-  font-size: 14.5px;
-  margin-top: 45px;
-  margin-left: 42px;
+  font-size: 16px;
+  margin-left: 50px;
   clear:left;
 }
 
@@ -168,13 +157,14 @@ span {
     float: left;
     margin: 10px;
     margin-left:39px;
-    width: 425px;
+    width: 540px;
 }
 
 /* images info */
 
 #beschuit{
-    width: 250px;
+    margin-top: -30px;
+    width: 300px;
     /* border-radius: 8px;
     margin: 25px;
     margin-top: 0px;
@@ -186,7 +176,7 @@ span {
     margin:30px;
     float: right;
     width: 300px;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 .plaatjemidden {
@@ -208,14 +198,15 @@ span {
 
 .mutsje {
     border-radius: 8px;
-    width: 300px;
+    width: 230px;
+    margin: 5px;
 }
 
 .hand{
     border-radius: 8px;
-    position: relative;
-    left: 360px;
-    top: 300px;
+    width: 250px;
+    margin: 5px;
+    float: right;
 }
 
 .slapend {
@@ -234,6 +225,6 @@ span {
 /* eerste css */
 
 #eerste-over-mij{
-    font-family: cursive;
+    font-family: carlijn;
 
 }
