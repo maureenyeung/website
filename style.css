@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+a: visited {
+    color: #C3AEF5;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -177,10 +181,10 @@ span {
 #vervolg-mei{
     float: left;
     margin: 10px;
-    margin-left:35px;
+    margin-left:50px;
     margin-bottom: 1px;
     width: 500px;
-    padding-bottom: 46px;
+    padding-bottom: 30px;
 }
 
 #vervolg-mei-2{
@@ -193,10 +197,6 @@ span {
 #beschuit{
     margin-top: -30px;
     width: 226px;
-    /* border-radius: 8px;
-    margin: 25px;
-    margin-top: 0px;
-    margin-right: 55px; */
 }
 
 .plaatjerechts {
@@ -215,13 +215,25 @@ span {
     width: 325px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 .plaatjes2oprij{
+    transition: transform .2s;
     border-radius: 8px;
     margin:15px;
     float: left;
     width: 300px;
     margin-left: 100px;
     margin-bottom: 35px;
+}
+
+.plaatjes2oprij:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 .mutsje {
@@ -231,15 +243,20 @@ span {
     margin-bottom: 0px;
 }
 
-.hand{
+#hand{
     border-radius: 8px;
-    width: 250px;
-    margin: 5px;
-    float: right;
+    width: 300px;
+    margin: 20px;
+    margin-left: 100px;
+    float: left;
 }
 
 #slapend {
     border-radius: 8px;
+    margin: 20px;
+    width: 300px;
+    float: right;
+    margin-right: 100px;
     -moz-transform: scaleY(-1);
     -o-transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
@@ -330,7 +347,18 @@ span {
 }
 
 #vervolg-o-m-2{
-    width: 800px;
+    width: 580px;
+    margin-right:50px;
+    float: right;
+    margin-bottom: 30px;
+}
+
+#blauwpakje{
+    border-radius: 8px;
+    width: 154px;
+    margin-left:65px;
+    float: left;
+    margin-bottom: 30px;
 }
 
 #vakantie{
@@ -347,8 +375,15 @@ span {
     width: 800px;
 }
 
+#powakka{
+    width:675px;
+    display: block;
+    margin:auto;
+}
+
 #blauwsel{
     width: 800px;
+    margin-bottom: 40px;
 }
 
 
@@ -365,6 +400,12 @@ span {
     width: 800px;
 }
 
+#veel-lachen{
+    width:675px;
+    display: block;
+    margin:auto;
+}
+
 #nu{
     font-family: sierlijk;
     font-size: 42px;
@@ -374,4 +415,10 @@ span {
 
 #vervolg-nu{
     width: 800px;
+}
+
+#lach-zon{
+    width:675px;
+    display: block;
+    margin:auto;
 }
