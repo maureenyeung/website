@@ -50,7 +50,7 @@ body {
     margin: auto;
     padding: 12px;
     text-align: center; 
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 35px;
 }
 
@@ -60,11 +60,6 @@ body {
     padding: 15px;
     text-align: center;
 }
-
-/* .clear.bold{
-    font-weight: bold;
-}
-*/
 
 /* footer info */
 .smalltext {
@@ -92,9 +87,10 @@ nav ul {
     padding: 0;
     background-color: rgb(171, 197, 245);
     overflow: hidden;
-    width: 660px;
+    width: 656.5px;
     border: 1px solid white;
     font-family: sierlijk;
+    font-size: 29.5px;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
 }
 
@@ -130,6 +126,26 @@ nav li a.active {
     src: url(fonts/notes.ttf)
 }
 
+@font-face {
+    font-family: toyblocks;
+    src: url(fonts/toyblocks.ttf)
+}
+
+@font-face {
+    font-family: clouds;
+    src: url(fonts/clouds.ttf)
+}
+
+@font-face {
+    font-family: life-movie;
+    src: url(fonts/life-movie.ttf)
+}
+
+@font-face {
+    font-family: flower;
+    src: url(fonts/flower.ttf)
+}
+
 /* geboorte stijlen */
 
 #buik{
@@ -148,7 +164,7 @@ span {
   box-shadow: 0 0 12px rgb(30, 111, 165), 0 0 3px beige inset;
   padding: .5em 1.3em;
   box-decoration-break: clone;
-  font-size: 16px;
+  font-size: 19px;
   margin-left: 50px;
   clear:left;
 }
@@ -164,7 +180,7 @@ span {
     margin-left:35px;
     margin-bottom: 1px;
     width: 500px;
-    padding-bottom: 48px;
+    padding-bottom: 46px;
 }
 
 #vervolg-mei-2{
@@ -234,12 +250,35 @@ span {
 
 /* eerste CSS */
 
-.over-mij{
-    font-family: monospace;
+#over-mij{
+    font-family: toyblocks;
 }
 
 #vervolg-o-m{
     width: 800px;
+}
+
+#pig{
+    font-family: sierlijk;
+    font-size: 42px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+#vervolg-pig{
+    width: 800px;
+}
+
+#week{
+    width:750px;
+    display: block;
+    margin:auto;
+
+}
+
+#geboortefeest{
+    padding-top: 18px;
+    font-family: flower;
 }
 
 #vervolg-geboortefeest{
@@ -256,6 +295,10 @@ span {
 }
 
 #envelop{
+    font-family: sierlijk;
+    font-size: 42px;
+    padding-top: 3px;
+    padding-bottom: 8px;
     margin-bottom: 75px;
 }
 .scroll{
@@ -282,11 +325,17 @@ span {
     margin-bottom: 300px;
 }
 /* zomer CSS */
+#z-over-mij{
+    font-family: toyblocks;
+}
+
 #vervolg-o-m-2{
     width: 800px;
 }
 
 #vakantie{
+    font-family: clouds;
+    font-size:45px;
     width: 800px;
 }
 
@@ -304,7 +353,25 @@ span {
 
 
 /* winter css */
+#half-jaar{
+    font-family: life-movie;
+    padding:8px;
+    padding-left: 16x;
+    padding-right: 16px;
+    font-size: 40px;
+}
 
 #vervolg-halfjaar{
+    width: 800px;
+}
+
+#nu{
+    font-family: sierlijk;
+    font-size: 42px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+#vervolg-nu{
     width: 800px;
 }
