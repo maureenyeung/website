@@ -281,10 +281,30 @@ span {
 .space{
     margin-bottom: 300px;
 }
-/* daarna CSS */
+/* zomer CSS */
 #vervolg-o-m-2{
     width: 800px;
 }
 
-vakantie{
+#vakantie{
     width: 800px;
+}
+
+#vervolg-vakantie{
+    width: 800px;
+}
+
+#zwemmen{
+    width: 800px;
+}
+
+#blauwsel{
+    width: 800px;
+}
+
+
+/* winter css */
+
+#vervolg-halfjaar{
+    width: 800px;
+}
