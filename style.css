@@ -255,19 +255,32 @@ span {
     margin-right: 50px;
 }
 
+#envelop{
+    margin-bottom: 75px;
+}
 .scroll{
     position: absolute;
-    z-index: 2; 
+    z-index: 1; 
     margin: auto;
-    display: block; 
+    margin-top: -49px;
+    margin-left: 150px;
+    display: block;
 }
 
 .feitje{
+    font-family:'Lucida Calligraphy';
+    font-size: 17px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    margin-left: 220px;
     width: 450px;
-    margin: auto;
+
 }
 
-
+.space{
+    margin-bottom: 300px;
+}
 /* daarna CSS */
 #vervolg-o-m-2{
     width: 800px;
